@@ -30,7 +30,7 @@ clients = df.to_numpy()
 #print(clients)
 # clients[row, column] ## how it werks 
 
-pb = Pushbullet("o.ILvrcOc81yC3Vpmey8xClx9JTxAx9WMz") # access token to log me in 
+pb = Pushbullet("TOKEN") # access token to log me in 
 device = pb.devices[0]
 
 a = len(clients) # get how many clients I have 
